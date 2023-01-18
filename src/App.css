@@ -16,26 +16,17 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo.typescript:hover {
+  filter: drop-shadow(0 0 2em #2a68aa);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.logo.eslint:hover {
+  filter: drop-shadow(0 0 2em #6262b8);
 }
 
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
+.notes {
   color: #888;
 }
